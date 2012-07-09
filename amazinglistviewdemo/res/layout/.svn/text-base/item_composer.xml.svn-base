@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include layout="@layout/item_composer_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:padding="6dp">
+		<TextView android:textStyle="bold" android:text="Full Name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/lName" android:textColor="#000" />
+		<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/lYear" android:text="1500-1600" />
+	</LinearLayout>
+</LinearLayout>
